@@ -21,7 +21,7 @@ const LocationPicker = ({ setAddress, setCoordinates, onClose }) => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyAiojTOV_nkulGVqTaRy3zf7hvZwtZok6Y" libraries={libraries}>
+    <LoadScript googleMapsApiKey="" libraries={libraries}>
       <div style={{ width: "400px", height: "500px", padding: "10px", background: "white" }}>
         <Autocomplete onLoad={(autocomplete) => (autocomplete.onPlaceChanged = () => handlePlaceSelect(autocomplete))}>
           <input type="text" placeholder="Search location..." style={{ width: "100%", padding: "10px" }} />

@@ -156,6 +156,7 @@ try {
                       <NavLink style={{ color: "black" }}>
                         <Tooltip title="Delete">
                           <DeleteOutlinedIcon
+                          color='error'
                           onClick={()=>handleDelete(row._id)}
                             fontSize="small"
                           />

@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttonStyling{
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  background-color:#038A98;
+  color: #FFFFFF;
+  border: 1px solid #0F9DAC;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
